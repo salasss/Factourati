@@ -1,0 +1,6 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgb(255, 255, 255)),url(/images/background/back-comptabilite.png) ;
+    background-size: cover;
+}
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 957.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00adb5;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #222831;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <ellipse class="cls-1" cx="500" cy="484.81" rx="500" ry="472.8"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <polygon class="cls-2" points="900.65 214.78 931.92 176.17 67.9 176.17 106.47 214.78 105.42 659.35 505.85 879.02 899.61 660.91 900.65 214.78"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-4" x="67.9" y="0" width="865.19" height="176.17" rx="51.59" ry="51.59"/>
+    <rect class="cls-4" x="67.9" y="88.08" width="865.19" height="88.08"/>
+    <rect class="cls-3" x="207.4" y="275.61" width="588.8" height="61.59"/>
+    <rect class="cls-3" x="207.4" y="385.48" width="588.8" height="61.59"/>
+    <rect class="cls-3" x="207.4" y="495.36" width="460.91" height="61.59"/>
+  </g>
+</svg>

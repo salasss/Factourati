@@ -1,0 +1,407 @@
+@font-face {
+    font-family: lemon;
+    src: url(/polices/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: robot;
+    src: url(/polices/Roboto-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'lemon', Courier, monospace;
+}
+header{
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgb(255, 255, 255)),url(images/background/back-comptabilite.jpg);
+    background-size: cover;
+}
+/*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*//*nav*/
+.navbar{
+    position: absolute;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar img{
+    margin-right:3px ;
+    width: 7%;}
+.navbar a{
+color: black;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+.navbar .nav-liens ul {
+    display: flex;
+}
+.navbar .nav-liens ul li {
+    margin: 0 25px ;
+}
+
+.navbar .nav-liens ul li a:hover {
+    color:rgba(0,172,238,1) ;
+}
+
+.navbar .nav-connection {
+    margin: 0 50px ;
+}
+.navbar .nav-connection .btn-connection {
+    width: 130px;
+  height: 40px;
+  color: rgba(0,172,238,1);
+  border-radius: 25px;
+  font-family: 'lemon', Courier, monospace;
+  cursor: pointer;
+
+  background: rgb(0, 0, 0);;
+  padding: 0;
+  border: none;
+  }
+  .navbar .nav-connection .btn-connection:hover{
+    transition: all 0.3s ease;
+	color: rgb(0, 0, 0);
+    background: rgba(0,172,238,1) ;
+}
+
+ /* popup */
+ .popupcon .contenue-con {
+    position: fixed;
+    top: 40%;
+    left: 85%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 350px;
+    height: 350px;
+    z-index: 2;
+    border-radius: 20px;
+    background-color: #212121;
+    box-shadow: 38px 38px 56px rgba(0, 0, 0, 0.354),-1rgba(0, 0, 0, 0.411)15px 28px black;
+    z-index: 1;
+}
+
+.popupcon .close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4rem .6rem;
+    cursor: pointer
+
+}
+.popupcon .close-btn:hover {
+    background-color: #00ADB5;
+    border-radius:  0 20px 0 0;
+    color: #fff;
+}
+
+/*affiche et deeafiche*/
+.popupcon.active .contenue-con{
+    transition:all 300ms ease-in-out ;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popupcon h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.form-groupa .validat{
+    width: 310px;
+    height: 20px;
+    margin: 12px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.form-groupa #remember-me{
+    margin: 12px auto 12px 12px;
+    padding: 5px;
+}
+.form-groupa label{
+    color: #fff;
+    font-family: 'robot', Courier, monospace;
+}
+
+.btn2-conn{
+  margin-left: 100px;
+  width: 230px;
+  height: 40px;
+  color: rgba(0,172,238,1);
+  border-radius: 25px;
+  font-family: 'lemon', Courier, monospace;
+  cursor: pointer;
+  background: rgb(0, 0, 0);;
+  padding: 0;
+  border: none;
+  }
+
+.btn2-conn:hover {
+    transition: all 0.3s ease;
+	color: rgb(0, 0, 0);
+    background: rgba(0,172,238,1) ;
+}
+
+
+
+/*header*//*header*//*header*//*header*//*header*//*header*//*header*//*header*//*header*/
+.s1 div{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.s1 h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.btn-insc{
+margin:0 auto;
+display:block;
+width: 375px;
+height: 50px;
+font-size: larger;
+color: rgba(0,172,238,1);
+border-radius: 25px;
+font-family: 'lemon', Courier, monospace;
+cursor: pointer;
+margin-top: 20px;
+background: rgb(0, 0, 0);;
+padding: 0;
+border: none;
+}
+  .btn-insc:hover{
+    transition: all 0.3s ease;
+	color: rgb(0, 0, 0);
+    background: rgba(0,172,238,1) ;
+}
+#Information{
+    display: flex;
+    align-items: center;
+    padding: 75px 150px;
+    background-color :rgb(255, 255, 255);
+
+}
+#Information div h3 {
+    font-size: x-large;
+    color: black;
+}
+#Information div p {
+    font-family: 'robot', Courier, monospace;
+    color: black;
+}
+#Information img {
+    width: 45%;
+}
+/*-------------contact-------------*//*-------------contact-------------*/
+
+section#contact {
+    padding: 25px 0;
+}
+section#contact .container {
+    background-color: #00ADB5;
+    max-width: 900px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px -10px #dfdfdf;
+}
+section#contact .container .titre h6{
+    text-align: center;
+}
+section#contact .container .titre h6{
+    font-size: 1em;
+}
+section#contact .container .titre h3{
+    font-size: 2.2em;
+}
+section#contact .container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 750px;
+}
+section#contact .container form input{
+    width: 45%;
+}
+
+section#contact .container form textarea{
+    width: 100%;
+    resize: none;
+    height: 200px;
+}
+section#contact .container form input, section#contact .container form textarea{
+    margin: 10px 0;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 3px  #dfdfdf solid;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+section#contact .container form input:hover,section#contact .container form textarea:hover{
+    border-bottom: 3px solid rgba(0,172,238,1) ;
+}
+section#contact .container form button{
+    margin: 15px auto;
+    width: 250px;
+    height: 50px;
+    color: rgba(0,172,238,1);
+    border-radius: 10px;
+    font-family: 'lemon', Courier, monospace;
+    font-size: x-large;
+    cursor: pointer;
+    background: rgb(0, 0, 0);;
+    padding: 0;
+    border: none;
+}
+section#contact .container form button:hover{
+    transition: all 0.3s ease;
+	color: rgb(0, 0, 0);
+    background: rgba(0,172,238,1) ;
+}
+
+/* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer *//* footer */
+footer{
+    background-color: #212121;
+    color :#dfdfdf;
+    padding: 30px 100px;
+}
+footer h5{
+    color: white;
+}
+.footer-top{
+    display: flex;
+    justify-items: center;
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-col {
+    width: max-content;
+
+}
+.footer-col > *  {
+    display: block;
+    width: max-content;
+}
+.footer-col  > h5{
+    margin-bottom: 20px;
+    font-size: 25px;
+
+
+
+}
+.footer-col a {
+    text-decoration: none;
+    padding: 5px 0;
+    font-family: 'robot', Courier, monospace;
+}
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+a:hover {
+    color:rgba(0,172,238,1) ;
+}
+
+
+
+
+
+
+section#inscription {
+    padding: 200px 0;
+}
+section#inscription .container {
+    background-color: #ffffff34;
+    max-width: 900px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px -10px #dfdfdf;
+}
+section#inscription .container .titre h3{
+    font-size: 2.2em;
+}
+section#inscription .container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 750px;
+}
+section#inscription .container form input{
+    width: 45%;
+}
+section#inscription .container form #remember-me{
+    width: 10%;
+    margin: -15px;
+}
+section#inscription .container form label{
+    font-size: x-small;
+}
+
+section#inscription .container form input{
+    margin: 10px 0;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 3px  #dfdfdf solid;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+section#inscription .container form input:hover{
+    border-bottom: 3px solid rgba(0,172,238,1) ;
+}
+section#inscription .container form button{
+    margin: 15px auto;
+    width: 250px;
+    height: 50px;
+    color: rgba(0,172,238,1);
+    border-radius: 10px;
+    font-family: 'lemon', Courier, monospace;
+    font-size: x-large;
+    cursor: pointer;
+    background: rgb(0, 0, 0);;
+    padding: 0;
+    border: none;
+}
+section#inscription .container form button:hover{
+    transition: all 0.3s ease;
+	color: rgb(0, 0, 0);
+    background: rgba(0,172,238,1) ;
+}

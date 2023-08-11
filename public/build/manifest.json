@@ -1,0 +1,17 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-91ea1498.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-60f5163b.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/pikaday.js": {
+    "file": "assets/pikaday-9735594d.js",
+    "isEntry": true,
+    "src": "resources/js/pikaday.js"
+  }
+}
