@@ -1,0 +1,1 @@
+<?php /**PATH C:\LaravelApp\Proj\proj\resources\views/admin/dash.blade.php ENDPATH**/ ?>
